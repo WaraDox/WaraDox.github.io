@@ -1,0 +1,27 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.box {
+  height: 20vh;
+  display:flex ;
+  justify-content: center ;
+  align-items: center ;
+  border: 5px solid red ;
+  border-image: linear-gradient(to right, #fc4a1a, #f7b733 );
+  border-image-slice : 1 ;
+}
+
+.presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+body {
+  color: rgb(255, 255, 255);
+  background-color:#262526;
+}
+
+text {text-align: center;}
